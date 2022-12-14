@@ -7,8 +7,10 @@ export default class ListaLibros extends Component{
 
         /** inicializamos el estado */
         this.state = {
-            libros: []
+            libros: [],
         }
+
+        /** this.state , this.setState */
     }
 
     /** metodo para conectarnos a la apiLibros y actualizamos el estado */
@@ -25,12 +27,12 @@ export default class ListaLibros extends Component{
         })
     }
 
+
     /** ciclos de vida */
 
     //montamos y renderizamos el estado o metodos
     componentDidMount(){
         this.obtenerLibros();
-
     }
 
     render(){

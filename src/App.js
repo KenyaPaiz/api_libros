@@ -8,7 +8,7 @@ import ListaPokemones from './Components/ListaPokemones.jsx';
 function App() {
   return (
     <div>
-      <Navbar autor="Kenia Paiz"/>
+      <Navbar autor="Kenia Paiz" />      
       <Titulo /> 
       <div className='container'>
         <ListaPokemones />
