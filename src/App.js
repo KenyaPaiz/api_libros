@@ -3,6 +3,7 @@ import './estilos.css';
 import Titulo from './Titulo.jsx';
 import Navbar from './Components/Navbar.jsx';
 import ListaLibros from './Components/ListaLibros.jsx';
+import ListaPokemones from './Components/ListaPokemones.jsx';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navbar autor="Kenia Paiz"/>
       <Titulo /> 
       <div className='container'>
-        <ListaLibros />
+        <ListaPokemones />
       </div>
     </div>
   );
